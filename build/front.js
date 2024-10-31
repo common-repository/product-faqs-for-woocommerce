@@ -1,0 +1,1 @@
+(()=>{"use strict";var i;(i=window.jQuery)((function(){i(".pffw-question").on("click",(function(){i(this).toggleClass("active"),i(this).next(".pffw-answer").slideToggle(),i(this).parent().siblings().find(".accordion-heading").removeClass("active")}))}))})();
